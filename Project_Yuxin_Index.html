@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Index (Project)</title>
+	<link href="Style.css" rel="stylesheet" type="text/css">
+	<style>
+.all-products {
+    display: grid; /* Use grid layout for the product display */
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 1rem; /* Space between the boxes */
+    justify-items: center; /* Aligns the items to the start (left side) */
+}
+		
+.product {
+    width: 250px; /* Smaller width to fit four boxes in a row */
+    height: auto; /* Allows the height to adjust dynamically */
+    background: #ffffff;
+    color: #21201e;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 0.5rem; /* Adjust spacing between products */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for effect */
+    transition: transform 0.2s; /* Smooth animation on hover */
+}
+		
+.product:hover {
+    transform: scale(1.05); /* Slightly enlarges the box on hover */
+}
+		
+.product .product-title, .product .product-price {
+	font-size: 18px; /* Adjusted font size for smaller boxes */
+}
+
+.product img {
+    width: 150px; /* Smaller image size to fit the box */
+    height: 200px;
+    margin: 0.5rem 0;
+    transition: transform 0.2s;
+}
+	</style>
+</head>
+
+<body>
+	
+<header><img src="Images/Logo.png" width="354" height="102" alt=""/></header>
+	
+	<nav>
+		<h1>
+		<a href="Project_Yuxin_Index.html">Home</a>
+		<a href="Project_Yuxin_Product.html">Products</a> 
+		<a href="Project_Yuxin_AboutUs.html">About Us</a>
+		<a href="Project_Yuxin_ContactUs.html">Contact Us</a> 
+		<div class="animation start-home"></div>
+		</h1>
+	</nav>
+	
+	<h2>Discover Innovative Products from Zyra</h2>
+	
+	<table align="center">
+  <tbody>
+    <tr>
+      <th>Step into the world of Zyra.sg <br>
+		  where innovation and quality converge.<br>
+		  Discover the gadgets that make life
+		  easier and more enjoyable!</th>
+    </tr>
+    <tr>
+      <td><img src="Images/image.jpg" width="675" height="450" alt=""/></td>
+    </tr>
+  </tbody>
+</table>
+	
+<p><h1>Our Journey:</h1>
+	<h4>At Zyra.sg, we bring you the latest in innovative technology. Our journey<br>
+		started with a passion for enhancing everyday life through gadgets, creating<br>
+		a seamless shopping experience for tech enthusiasts. Discover cutting-edge<br>
+		devices that redefine the way you live.</h4></p>
+
+<br>
+
+<section class="products">
+	<h1><u>Featured Products</u></h1>
+	<div class="all-products">
+		<div class="product">
+		  <img src="Images/Mobile Phone 2.jpg" width="260" height="260" alt=""/>
+			<div class="product-info">
+			  <h4 class="product-title">Samsung Galaxy S24 5G 256GB</h4>
+				<p class="product-price">$1,288</p>
+			</div>
+		</div>
+		<div class="product">
+			<img src="Images/All in One Desktop 2.jpg" width="260" height="260" alt=""/>
+			<div class="product-info">
+			  <h4 class="product-title">Apple iMac Desktop</h4>
+				<p class="product-price">$2,149</p>
+			</div>
+		</div>
+	  <div class="product">
+		  <img src="Images/HeadPhone 4.jpg" width="260" height="260" alt=""/>
+		  <div class="product-info">
+		    <h4 class="product-title">SONY WH-1000XM5 Headphones</h4>
+				<p class="product-price">S$350</p>
+			</div>
+	    </div>
+		<div class="product">
+			<img src="Images/Technology Watch 4.jpg" width="260" height="260" alt=""/>
+			<div class="product-info">
+				<h4 class="product-title">Fitbit Versa Silver Aluminium Smartwatch</h4>
+				<p class="product-price">S$216</p>
+		  </div>
+	    </div>
+  </div>
+</section>
+
+<p><h1>Mobile Phones<br>
+			<br>&amp;<br>
+			<br>All in One Desktop</h1></p>
+
+<table align="center">
+  <tbody>
+	<tr>
+		<td><img src="Images/Phone Product Ads.jpg" width="500" height="300" alt=""/></td>
+		<td><h4>Discover innovation with Zyra.sg’s range of mobile phones! From top smartphones to budget-friendly options, we have the perfect device for every need and unbeatable deals on top brands.</h4>
+		<h3>Don’t miss out! Shop now at our product section and enjoy great prices, fast delivery, and exceptional customer service. Your next favorite mobile phone is just a click away!</h3></td>
+    </tr>
+	<tr>
+		<td><h4>Elevate your workspace with our sleek all-in-one desktops at Zyra.sg! Combining powerful performance with elegant design, these computers are perfect for everything from work projects to entertainment. Enjoy a clutter-free setup without sacrificing quality.</h4>
+		<h3>Revamp your workspace today! Browse our product selection of all-in-one desktops and experience the perfect blend of style and functionality at unbeatable prices!</h3></td>
+		<td><img src="Images/All in One Desktop Ads.jpg" width="500" height="300" alt=""/></td>
+	</tr>
+  </tbody>
+</table>
+
+	<p><h1>Headphones<br>
+		<br>&amp;<br>
+		<br>Technology Watches</h1></p>
+
+	<table align="center">
+  <tbody>
+	<tr>
+		<td><img src="Images/Headphone Product Ads.jpg" width="500" height="300" alt=""/></td>
+		<td><h4>Dive into your favorite music, podcasts, and more with high-quality headphones from Zyra.sg. Our selection includes the latest noise-cancelling, wireless, and in-ear models designed to deliver crystal-clear audio. Whether you're working out, traveling, or just relaxing, we have the perfect headphones to enhance your listening experience.</h4>
+		<h3>Experience sound like never before! Shop now at our product section and find the best headphones to match your style and needs!</h3></td>
+    </tr>
+	<tr>
+		<td height="389"><h4>Keep track of your fitness, notifications, and more with our range of smartwatches and technology watches at Zyra.sg. Designed for those who value both style and functionality, our watches blend the best of modern tech with sleek designs. Stay connected, monitor your health, and enjoy a range of features on your wrist.</h4>
+		<h3>Don’t wait! Explore our technology watches at product section today and find the perfect accessory that keeps you connected and stylish!</h3></td>
+		<td><img src="Images/Technology Watches Ads.jpg" width="500" height="300" alt=""/></td>
+	</tr>
+  </tbody>
+</table>
+
+<div class="footer">
+	<a href="Project_Yuxin_Index.html" class="custom-link">Back to Top</a>
+</div>
+
+<footer>©Copyright 2024 Zyra.sg. All rights reserved.</footer>
+</body>
+</html>
